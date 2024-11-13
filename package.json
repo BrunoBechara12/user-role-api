@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "tsx watch src/main.ts"
+    "dev": "tsx watch src/main.ts",
+    "setMigrate": "npx drizzle-kit generate",
+    "pushMigrate": "npx drizzle-kit push"
   },
   "dependencies": {
     "argon2": "^0.41.1",
